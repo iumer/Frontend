@@ -33,8 +33,7 @@ class Products extends Component {
         await deleteProduct(product)
        }
        catch(ex){
-           this.setState({products: originalProducts})
-           alert("Could not delete product")      
+             
       
 
        }
